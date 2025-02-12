@@ -79,7 +79,7 @@ button {
 }
 
 .info {
-    margin: 48px 0;
+    padding: 48px 0;
 }
 
 .info-header {
@@ -118,6 +118,26 @@ p {
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
+    padding: 128px 0;
+}
+
+.quote {
+    width: 800px;
+    align-self: center;
+}
+
+.quote-block .container {
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-author {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: bold;
+    text-align: end;
+    width: 800px;
+    align-self: center;
 }
 
 .call {
